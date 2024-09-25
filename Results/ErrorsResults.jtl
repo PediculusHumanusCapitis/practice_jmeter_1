@@ -1,0 +1,532 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testResults version="1.2">
+<httpSample t="3" it="0" lt="3" ct="0" ts="1727197850655" s="false" lb="Update_SendCom" rc="200" rm="" tn="sendComment Stepping Thread Group 2-1" dt="text" de="UTF-8" by="1118" sby="336" sc="1" ec="1" ng="12" na="13" hn="DESKTOP-75HJ5OI">
+  <assertionResult>
+    <name>Response Assertion</name>
+    <failure>true</failure>
+    <error>false</error>
+    <failureMessage>Test failed: text expected to contain /&lt;b&gt;МТС Банк&lt;\/b&gt;: &apos;Самая надежная компания, рекомендую всем!&apos;&lt;br&gt;/</failureMessage>
+  </assertionResult>
+  <responseHeader class="java.lang.String">HTTP/1.1 200 
+X-Content-Type-Options: nosniff
+X-XSS-Protection: 1; mode=block
+Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+Pragma: no-cache
+Expires: 0
+Content-Type: text/plain;charset=UTF-8
+Content-Length: 844
+Date: Tue, 24 Sep 2024 17:10:50 GMT
+</responseHeader>
+  <requestHeader class="java.lang.String">Connection: keep-alive
+Referer: http://localhost:8080/guestbook.html
+Accept-Language: ru-RU,ru;q=0.8,en-US;q=0.5,en;q=0.3
+Priority: u=0
+Accept-Encoding: gzip, deflate
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:130.0) Gecko/20100101 Firefox/130.0
+Accept: */*
+Host: localhost:8080
+</requestHeader>
+  <responseData class="java.lang.String">&lt;b&gt;ОТП Банк&lt;/b&gt;: &apos;ЕЩЩЩКЕЕЕЕЕРРЕЕЕЕЕ&apos;&lt;br&gt;&lt;b&gt;Филип Морис Интернэшнл&lt;/b&gt;: &apos;Спасибо!&apos;&lt;br&gt;&lt;b&gt;ОТП Банк&lt;/b&gt;: &apos;Рекомендую, это лучшая компания на свете Отличные ребята.&apos;&lt;br&gt;&lt;b&gt;Ренессанс Жизнь&lt;/b&gt;: &apos;Благодарю за отличную работу!&apos;&lt;br&gt;&lt;b&gt;Ренессанс Жизнь&lt;/b&gt;: &apos;Вы превзошли все ожидания, молодцы!&apos;&lt;br&gt;&lt;b&gt;ВТБ 24&lt;/b&gt;: &apos;Привет! Я все выяснил по твоей просьбе: значит запись на лечение геморроя проводится по пятницам с 8:00 кабинет №13. Извини что в гостевой пишу, у меня что-то личка тормозит. Всегда рад помочь.&apos;&lt;br&gt;</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <cookies class="java.lang.String"></cookies>
+  <method class="java.lang.String">GET</method>
+  <queryString class="java.lang.String"></queryString>
+  <java.net.URL>http://localhost:8080/service/guestbook</java.net.URL>
+</httpSample>
+<httpSample t="4" it="0" lt="4" ct="0" ts="1727197925564" s="false" lb="Update_SendCom" rc="200" rm="" tn="sendComment Stepping Thread Group 2-16" dt="text" de="UTF-8" by="272" sby="336" sc="1" ec="1" ng="24" na="25" hn="DESKTOP-75HJ5OI">
+  <assertionResult>
+    <name>Response Assertion</name>
+    <failure>true</failure>
+    <error>false</error>
+    <failureMessage>Response was null</failureMessage>
+  </assertionResult>
+  <responseHeader class="java.lang.String">HTTP/1.1 200 
+X-Content-Type-Options: nosniff
+X-XSS-Protection: 1; mode=block
+Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+Pragma: no-cache
+Expires: 0
+Content-Type: text/plain;charset=UTF-8
+Content-Length: 0
+Date: Tue, 24 Sep 2024 17:12:04 GMT
+</responseHeader>
+  <requestHeader class="java.lang.String">Connection: keep-alive
+Referer: http://localhost:8080/guestbook.html
+Accept-Language: ru-RU,ru;q=0.8,en-US;q=0.5,en;q=0.3
+Priority: u=0
+Accept-Encoding: gzip, deflate
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:130.0) Gecko/20100101 Firefox/130.0
+Accept: */*
+Host: localhost:8080
+</requestHeader>
+  <responseData class="java.lang.String"></responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <cookies class="java.lang.String"></cookies>
+  <method class="java.lang.String">GET</method>
+  <queryString class="java.lang.String"></queryString>
+  <java.net.URL>http://localhost:8080/service/guestbook</java.net.URL>
+</httpSample>
+<httpSample t="3" it="0" lt="3" ct="0" ts="1727197925565" s="false" lb="Update_SendCom" rc="200" rm="" tn="sendComment Stepping Thread Group 2-4" dt="text" de="UTF-8" by="272" sby="336" sc="1" ec="1" ng="24" na="25" hn="DESKTOP-75HJ5OI">
+  <assertionResult>
+    <name>Response Assertion</name>
+    <failure>true</failure>
+    <error>false</error>
+    <failureMessage>Response was null</failureMessage>
+  </assertionResult>
+  <responseHeader class="java.lang.String">HTTP/1.1 200 
+X-Content-Type-Options: nosniff
+X-XSS-Protection: 1; mode=block
+Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+Pragma: no-cache
+Expires: 0
+Content-Type: text/plain;charset=UTF-8
+Content-Length: 0
+Date: Tue, 24 Sep 2024 17:12:04 GMT
+</responseHeader>
+  <requestHeader class="java.lang.String">Connection: keep-alive
+Referer: http://localhost:8080/guestbook.html
+Accept-Language: ru-RU,ru;q=0.8,en-US;q=0.5,en;q=0.3
+Priority: u=0
+Accept-Encoding: gzip, deflate
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:130.0) Gecko/20100101 Firefox/130.0
+Accept: */*
+Host: localhost:8080
+</requestHeader>
+  <responseData class="java.lang.String"></responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <cookies class="java.lang.String"></cookies>
+  <method class="java.lang.String">GET</method>
+  <queryString class="java.lang.String"></queryString>
+  <java.net.URL>http://localhost:8080/service/guestbook</java.net.URL>
+</httpSample>
+<httpSample t="3" it="0" lt="3" ct="0" ts="1727197926564" s="false" lb="Update_SendCom" rc="200" rm="" tn="sendComment Stepping Thread Group 2-17" dt="text" de="UTF-8" by="763" sby="336" sc="1" ec="1" ng="24" na="25" hn="DESKTOP-75HJ5OI">
+  <assertionResult>
+    <name>Response Assertion</name>
+    <failure>true</failure>
+    <error>false</error>
+    <failureMessage>Test failed: text expected to contain /&lt;b&gt;Газпромбанк&lt;\/b&gt;: &apos;Рекомендую, это лучшая компания на свете Отличные ребята.&apos;&lt;br&gt;/</failureMessage>
+  </assertionResult>
+  <responseHeader class="java.lang.String">HTTP/1.1 200 
+X-Content-Type-Options: nosniff
+X-XSS-Protection: 1; mode=block
+Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+Pragma: no-cache
+Expires: 0
+Content-Type: text/plain;charset=UTF-8
+Content-Length: 489
+Date: Tue, 24 Sep 2024 17:12:06 GMT
+</responseHeader>
+  <requestHeader class="java.lang.String">Connection: keep-alive
+Referer: http://localhost:8080/guestbook.html
+Accept-Language: ru-RU,ru;q=0.8,en-US;q=0.5,en;q=0.3
+Priority: u=0
+Accept-Encoding: gzip, deflate
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:130.0) Gecko/20100101 Firefox/130.0
+Accept: */*
+Host: localhost:8080
+</requestHeader>
+  <responseData class="java.lang.String">&lt;b&gt;ИБРАЭ&lt;/b&gt;: &apos;Привет! Я все выяснил по твоей просьбе: значит запись на лечение геморроя проводится по пятницам с 8:00 кабинет №13. Извини что в гостевой пишу, у меня что-то личка тормозит. Всегда рад помочь.&apos;&lt;br&gt;&lt;b&gt;Филип Морис Интернэшнл&lt;/b&gt;: &apos;Вы превзошли все ожидания, молодцы!&apos;&lt;br&gt;</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <cookies class="java.lang.String"></cookies>
+  <method class="java.lang.String">GET</method>
+  <queryString class="java.lang.String"></queryString>
+  <java.net.URL>http://localhost:8080/service/guestbook</java.net.URL>
+</httpSample>
+<httpSample t="4" it="0" lt="4" ct="0" ts="1727197926565" s="false" lb="Update_SendCom" rc="200" rm="" tn="sendComment Stepping Thread Group 2-5" dt="text" de="UTF-8" by="884" sby="336" sc="1" ec="1" ng="24" na="25" hn="DESKTOP-75HJ5OI">
+  <assertionResult>
+    <name>Response Assertion</name>
+    <failure>true</failure>
+    <error>false</error>
+    <failureMessage>Test failed: text expected to contain /&lt;b&gt;Центральный банк РФ&lt;\/b&gt;: &apos;Спасибо!&apos;&lt;br&gt;/</failureMessage>
+  </assertionResult>
+  <responseHeader class="java.lang.String">HTTP/1.1 200 
+X-Content-Type-Options: nosniff
+X-XSS-Protection: 1; mode=block
+Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+Pragma: no-cache
+Expires: 0
+Content-Type: text/plain;charset=UTF-8
+Content-Length: 610
+Date: Tue, 24 Sep 2024 17:12:06 GMT
+</responseHeader>
+  <requestHeader class="java.lang.String">Connection: keep-alive
+Referer: http://localhost:8080/guestbook.html
+Accept-Language: ru-RU,ru;q=0.8,en-US;q=0.5,en;q=0.3
+Priority: u=0
+Accept-Encoding: gzip, deflate
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:130.0) Gecko/20100101 Firefox/130.0
+Accept: */*
+Host: localhost:8080
+</requestHeader>
+  <responseData class="java.lang.String">&lt;b&gt;ИБРАЭ&lt;/b&gt;: &apos;Привет! Я все выяснил по твоей просьбе: значит запись на лечение геморроя проводится по пятницам с 8:00 кабинет №13. Извини что в гостевой пишу, у меня что-то личка тормозит. Всегда рад помочь.&apos;&lt;br&gt;&lt;b&gt;Филип Морис Интернэшнл&lt;/b&gt;: &apos;Вы превзошли все ожидания, молодцы!&apos;&lt;br&gt;&lt;b&gt;ТрансКредитБанк&lt;/b&gt;: &apos;Самая надежная компания, рекомендую всем!&apos;&lt;br&gt;</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <cookies class="java.lang.String"></cookies>
+  <method class="java.lang.String">GET</method>
+  <queryString class="java.lang.String"></queryString>
+  <java.net.URL>http://localhost:8080/service/guestbook</java.net.URL>
+</httpSample>
+<httpSample t="5" it="0" lt="5" ct="0" ts="1727197927566" s="false" lb="Update_SendCom" rc="200" rm="" tn="sendComment Stepping Thread Group 2-18" dt="text" de="UTF-8" by="1118" sby="336" sc="1" ec="1" ng="24" na="25" hn="DESKTOP-75HJ5OI">
+  <assertionResult>
+    <name>Response Assertion</name>
+    <failure>true</failure>
+    <error>false</error>
+    <failureMessage>Test failed: text expected to contain /&lt;b&gt;Эльдорадо&lt;\/b&gt;: &apos;Вы превзошли все ожидания, молодцы!&apos;&lt;br&gt;/</failureMessage>
+  </assertionResult>
+  <responseHeader class="java.lang.String">HTTP/1.1 200 
+X-Content-Type-Options: nosniff
+X-XSS-Protection: 1; mode=block
+Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+Pragma: no-cache
+Expires: 0
+Content-Type: text/plain;charset=UTF-8
+Content-Length: 844
+Date: Tue, 24 Sep 2024 17:12:07 GMT
+</responseHeader>
+  <requestHeader class="java.lang.String">Connection: keep-alive
+Referer: http://localhost:8080/guestbook.html
+Accept-Language: ru-RU,ru;q=0.8,en-US;q=0.5,en;q=0.3
+Priority: u=0
+Accept-Encoding: gzip, deflate
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:130.0) Gecko/20100101 Firefox/130.0
+Accept: */*
+Host: localhost:8080
+</requestHeader>
+  <responseData class="java.lang.String">&lt;b&gt;ИБРАЭ&lt;/b&gt;: &apos;Привет! Я все выяснил по твоей просьбе: значит запись на лечение геморроя проводится по пятницам с 8:00 кабинет №13. Извини что в гостевой пишу, у меня что-то личка тормозит. Всегда рад помочь.&apos;&lt;br&gt;&lt;b&gt;Филип Морис Интернэшнл&lt;/b&gt;: &apos;Вы превзошли все ожидания, молодцы!&apos;&lt;br&gt;&lt;b&gt;ТрансКредитБанк&lt;/b&gt;: &apos;Самая надежная компания, рекомендую всем!&apos;&lt;br&gt;&lt;b&gt;Хоум Кредит энд Финанс Банк&lt;/b&gt;: &apos;ЕЩЩЩКЕЕЕЕЕРРЕЕЕЕЕ&apos;&lt;br&gt;&lt;b&gt;МТС Банк&lt;/b&gt;: &apos;Рекомендую, это лучшая компания на свете Отличные ребята.&apos;&lt;br&gt;</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <cookies class="java.lang.String"></cookies>
+  <method class="java.lang.String">GET</method>
+  <queryString class="java.lang.String"></queryString>
+  <java.net.URL>http://localhost:8080/service/guestbook</java.net.URL>
+</httpSample>
+<httpSample t="9" it="0" lt="9" ct="0" ts="1727197927565" s="false" lb="Update_SendCom" rc="200" rm="" tn="sendComment Stepping Thread Group 2-6" dt="text" de="UTF-8" by="1163" sby="336" sc="1" ec="1" ng="24" na="25" hn="DESKTOP-75HJ5OI">
+  <assertionResult>
+    <name>Response Assertion</name>
+    <failure>true</failure>
+    <error>false</error>
+    <failureMessage>Test failed: text expected to contain /&lt;b&gt;Мегафон&lt;\/b&gt;: &apos;Благодарю за отличную работу!&apos;&lt;br&gt;/</failureMessage>
+  </assertionResult>
+  <responseHeader class="java.lang.String">HTTP/1.1 200 
+X-Content-Type-Options: nosniff
+X-XSS-Protection: 1; mode=block
+Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+Pragma: no-cache
+Expires: 0
+Content-Type: text/plain;charset=UTF-8
+Content-Length: 889
+Date: Tue, 24 Sep 2024 17:12:07 GMT
+</responseHeader>
+  <requestHeader class="java.lang.String">Connection: keep-alive
+Referer: http://localhost:8080/guestbook.html
+Accept-Language: ru-RU,ru;q=0.8,en-US;q=0.5,en;q=0.3
+Priority: u=0
+Accept-Encoding: gzip, deflate
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:130.0) Gecko/20100101 Firefox/130.0
+Accept: */*
+Host: localhost:8080
+</requestHeader>
+  <responseData class="java.lang.String">&lt;b&gt;ИБРАЭ&lt;/b&gt;: &apos;Привет! Я все выяснил по твоей просьбе: значит запись на лечение геморроя проводится по пятницам с 8:00 кабинет №13. Извини что в гостевой пишу, у меня что-то личка тормозит. Всегда рад помочь.&apos;&lt;br&gt;&lt;b&gt;Филип Морис Интернэшнл&lt;/b&gt;: &apos;Вы превзошли все ожидания, молодцы!&apos;&lt;br&gt;&lt;b&gt;ТрансКредитБанк&lt;/b&gt;: &apos;Самая надежная компания, рекомендую всем!&apos;&lt;br&gt;&lt;b&gt;Хоум Кредит энд Финанс Банк&lt;/b&gt;: &apos;ЕЩЩЩКЕЕЕЕЕРРЕЕЕЕЕ&apos;&lt;br&gt;&lt;b&gt;МТС Банк&lt;/b&gt;: &apos;Рекомендую, это лучшая компания на свете Отличные ребята.&apos;&lt;br&gt;&lt;b&gt;ОТП Банк&lt;/b&gt;: &apos;Спасибо!&apos;&lt;br&gt;</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <cookies class="java.lang.String"></cookies>
+  <method class="java.lang.String">GET</method>
+  <queryString class="java.lang.String"></queryString>
+  <java.net.URL>http://localhost:8080/service/guestbook</java.net.URL>
+</httpSample>
+<httpSample t="3" it="0" lt="3" ct="0" ts="1727197928564" s="false" lb="Update_SendCom" rc="200" rm="" tn="sendComment Stepping Thread Group 2-19" dt="text" de="UTF-8" by="1163" sby="336" sc="1" ec="1" ng="25" na="26" hn="DESKTOP-75HJ5OI">
+  <assertionResult>
+    <name>Response Assertion</name>
+    <failure>true</failure>
+    <error>false</error>
+    <failureMessage>Test failed: text expected to contain /&lt;b&gt;Хоум Кредит энд Финанс Банк&lt;\/b&gt;: &apos;Привет! Я все выяснил по твоей просьбе: значит запись на лечение геморроя проводится по пятницам с 8:00 кабинет №13. Извини что в гостевой пишу, у меня что-то личка тормозит. Всегда рад помочь.&apos;&lt;br&gt;/</failureMessage>
+  </assertionResult>
+  <responseHeader class="java.lang.String">HTTP/1.1 200 
+X-Content-Type-Options: nosniff
+X-XSS-Protection: 1; mode=block
+Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+Pragma: no-cache
+Expires: 0
+Content-Type: text/plain;charset=UTF-8
+Content-Length: 889
+Date: Tue, 24 Sep 2024 17:12:07 GMT
+</responseHeader>
+  <requestHeader class="java.lang.String">Connection: keep-alive
+Referer: http://localhost:8080/guestbook.html
+Accept-Language: ru-RU,ru;q=0.8,en-US;q=0.5,en;q=0.3
+Priority: u=0
+Accept-Encoding: gzip, deflate
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:130.0) Gecko/20100101 Firefox/130.0
+Accept: */*
+Host: localhost:8080
+</requestHeader>
+  <responseData class="java.lang.String">&lt;b&gt;ИБРАЭ&lt;/b&gt;: &apos;Привет! Я все выяснил по твоей просьбе: значит запись на лечение геморроя проводится по пятницам с 8:00 кабинет №13. Извини что в гостевой пишу, у меня что-то личка тормозит. Всегда рад помочь.&apos;&lt;br&gt;&lt;b&gt;Филип Морис Интернэшнл&lt;/b&gt;: &apos;Вы превзошли все ожидания, молодцы!&apos;&lt;br&gt;&lt;b&gt;ТрансКредитБанк&lt;/b&gt;: &apos;Самая надежная компания, рекомендую всем!&apos;&lt;br&gt;&lt;b&gt;Хоум Кредит энд Финанс Банк&lt;/b&gt;: &apos;ЕЩЩЩКЕЕЕЕЕРРЕЕЕЕЕ&apos;&lt;br&gt;&lt;b&gt;МТС Банк&lt;/b&gt;: &apos;Рекомендую, это лучшая компания на свете Отличные ребята.&apos;&lt;br&gt;&lt;b&gt;ОТП Банк&lt;/b&gt;: &apos;Спасибо!&apos;&lt;br&gt;</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <cookies class="java.lang.String"></cookies>
+  <method class="java.lang.String">GET</method>
+  <queryString class="java.lang.String"></queryString>
+  <java.net.URL>http://localhost:8080/service/guestbook</java.net.URL>
+</httpSample>
+<httpSample t="3" it="0" lt="3" ct="0" ts="1727197928566" s="false" lb="Update_SendCom" rc="200" rm="" tn="sendComment Stepping Thread Group 2-7" dt="text" de="UTF-8" by="1163" sby="336" sc="1" ec="1" ng="25" na="26" hn="DESKTOP-75HJ5OI">
+  <assertionResult>
+    <name>Response Assertion</name>
+    <failure>true</failure>
+    <error>false</error>
+    <failureMessage>Test failed: text expected to contain /&lt;b&gt;Спутник&lt;\/b&gt;: &apos;Самая надежная компания, рекомендую всем!&apos;&lt;br&gt;/</failureMessage>
+  </assertionResult>
+  <responseHeader class="java.lang.String">HTTP/1.1 200 
+X-Content-Type-Options: nosniff
+X-XSS-Protection: 1; mode=block
+Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+Pragma: no-cache
+Expires: 0
+Content-Type: text/plain;charset=UTF-8
+Content-Length: 889
+Date: Tue, 24 Sep 2024 17:12:07 GMT
+</responseHeader>
+  <requestHeader class="java.lang.String">Connection: keep-alive
+Referer: http://localhost:8080/guestbook.html
+Accept-Language: ru-RU,ru;q=0.8,en-US;q=0.5,en;q=0.3
+Priority: u=0
+Accept-Encoding: gzip, deflate
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:130.0) Gecko/20100101 Firefox/130.0
+Accept: */*
+Host: localhost:8080
+</requestHeader>
+  <responseData class="java.lang.String">&lt;b&gt;ИБРАЭ&lt;/b&gt;: &apos;Привет! Я все выяснил по твоей просьбе: значит запись на лечение геморроя проводится по пятницам с 8:00 кабинет №13. Извини что в гостевой пишу, у меня что-то личка тормозит. Всегда рад помочь.&apos;&lt;br&gt;&lt;b&gt;Филип Морис Интернэшнл&lt;/b&gt;: &apos;Вы превзошли все ожидания, молодцы!&apos;&lt;br&gt;&lt;b&gt;ТрансКредитБанк&lt;/b&gt;: &apos;Самая надежная компания, рекомендую всем!&apos;&lt;br&gt;&lt;b&gt;Хоум Кредит энд Финанс Банк&lt;/b&gt;: &apos;ЕЩЩЩКЕЕЕЕЕРРЕЕЕЕЕ&apos;&lt;br&gt;&lt;b&gt;МТС Банк&lt;/b&gt;: &apos;Рекомендую, это лучшая компания на свете Отличные ребята.&apos;&lt;br&gt;&lt;b&gt;ОТП Банк&lt;/b&gt;: &apos;Спасибо!&apos;&lt;br&gt;</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <cookies class="java.lang.String"></cookies>
+  <method class="java.lang.String">GET</method>
+  <queryString class="java.lang.String"></queryString>
+  <java.net.URL>http://localhost:8080/service/guestbook</java.net.URL>
+</httpSample>
+<httpSample t="5" it="0" lt="5" ct="0" ts="1727197929564" s="false" lb="Update_SendCom" rc="200" rm="" tn="sendComment Stepping Thread Group 2-20" dt="text" de="UTF-8" by="1163" sby="336" sc="1" ec="1" ng="26" na="27" hn="DESKTOP-75HJ5OI">
+  <assertionResult>
+    <name>Response Assertion</name>
+    <failure>true</failure>
+    <error>false</error>
+    <failureMessage>Test failed: text expected to contain /&lt;b&gt;ДжиИ Мани Банк&lt;\/b&gt;: &apos;ЕЩЩЩКЕЕЕЕЕРРЕЕЕЕЕ&apos;&lt;br&gt;/</failureMessage>
+  </assertionResult>
+  <responseHeader class="java.lang.String">HTTP/1.1 200 
+X-Content-Type-Options: nosniff
+X-XSS-Protection: 1; mode=block
+Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+Pragma: no-cache
+Expires: 0
+Content-Type: text/plain;charset=UTF-8
+Content-Length: 889
+Date: Tue, 24 Sep 2024 17:12:08 GMT
+</responseHeader>
+  <requestHeader class="java.lang.String">Connection: keep-alive
+Referer: http://localhost:8080/guestbook.html
+Accept-Language: ru-RU,ru;q=0.8,en-US;q=0.5,en;q=0.3
+Priority: u=0
+Accept-Encoding: gzip, deflate
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:130.0) Gecko/20100101 Firefox/130.0
+Accept: */*
+Host: localhost:8080
+</requestHeader>
+  <responseData class="java.lang.String">&lt;b&gt;ИБРАЭ&lt;/b&gt;: &apos;Привет! Я все выяснил по твоей просьбе: значит запись на лечение геморроя проводится по пятницам с 8:00 кабинет №13. Извини что в гостевой пишу, у меня что-то личка тормозит. Всегда рад помочь.&apos;&lt;br&gt;&lt;b&gt;Филип Морис Интернэшнл&lt;/b&gt;: &apos;Вы превзошли все ожидания, молодцы!&apos;&lt;br&gt;&lt;b&gt;ТрансКредитБанк&lt;/b&gt;: &apos;Самая надежная компания, рекомендую всем!&apos;&lt;br&gt;&lt;b&gt;Хоум Кредит энд Финанс Банк&lt;/b&gt;: &apos;ЕЩЩЩКЕЕЕЕЕРРЕЕЕЕЕ&apos;&lt;br&gt;&lt;b&gt;МТС Банк&lt;/b&gt;: &apos;Рекомендую, это лучшая компания на свете Отличные ребята.&apos;&lt;br&gt;&lt;b&gt;ОТП Банк&lt;/b&gt;: &apos;Спасибо!&apos;&lt;br&gt;</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <cookies class="java.lang.String"></cookies>
+  <method class="java.lang.String">GET</method>
+  <queryString class="java.lang.String"></queryString>
+  <java.net.URL>http://localhost:8080/service/guestbook</java.net.URL>
+</httpSample>
+<httpSample t="3" it="0" lt="3" ct="0" ts="1727197929567" s="false" lb="Update_SendCom" rc="200" rm="" tn="sendComment Stepping Thread Group 2-8" dt="text" de="UTF-8" by="1163" sby="336" sc="1" ec="1" ng="26" na="27" hn="DESKTOP-75HJ5OI">
+  <assertionResult>
+    <name>Response Assertion</name>
+    <failure>true</failure>
+    <error>false</error>
+    <failureMessage>Test failed: text expected to contain /&lt;b&gt;ДжиИ Мани Банк&lt;\/b&gt;: &apos;Спасибо!&apos;&lt;br&gt;/</failureMessage>
+  </assertionResult>
+  <responseHeader class="java.lang.String">HTTP/1.1 200 
+X-Content-Type-Options: nosniff
+X-XSS-Protection: 1; mode=block
+Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+Pragma: no-cache
+Expires: 0
+Content-Type: text/plain;charset=UTF-8
+Content-Length: 889
+Date: Tue, 24 Sep 2024 17:12:08 GMT
+</responseHeader>
+  <requestHeader class="java.lang.String">Connection: keep-alive
+Referer: http://localhost:8080/guestbook.html
+Accept-Language: ru-RU,ru;q=0.8,en-US;q=0.5,en;q=0.3
+Priority: u=0
+Accept-Encoding: gzip, deflate
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:130.0) Gecko/20100101 Firefox/130.0
+Accept: */*
+Host: localhost:8080
+</requestHeader>
+  <responseData class="java.lang.String">&lt;b&gt;ИБРАЭ&lt;/b&gt;: &apos;Привет! Я все выяснил по твоей просьбе: значит запись на лечение геморроя проводится по пятницам с 8:00 кабинет №13. Извини что в гостевой пишу, у меня что-то личка тормозит. Всегда рад помочь.&apos;&lt;br&gt;&lt;b&gt;Филип Морис Интернэшнл&lt;/b&gt;: &apos;Вы превзошли все ожидания, молодцы!&apos;&lt;br&gt;&lt;b&gt;ТрансКредитБанк&lt;/b&gt;: &apos;Самая надежная компания, рекомендую всем!&apos;&lt;br&gt;&lt;b&gt;Хоум Кредит энд Финанс Банк&lt;/b&gt;: &apos;ЕЩЩЩКЕЕЕЕЕРРЕЕЕЕЕ&apos;&lt;br&gt;&lt;b&gt;МТС Банк&lt;/b&gt;: &apos;Рекомендую, это лучшая компания на свете Отличные ребята.&apos;&lt;br&gt;&lt;b&gt;ОТП Банк&lt;/b&gt;: &apos;Спасибо!&apos;&lt;br&gt;</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <cookies class="java.lang.String"></cookies>
+  <method class="java.lang.String">GET</method>
+  <queryString class="java.lang.String"></queryString>
+  <java.net.URL>http://localhost:8080/service/guestbook</java.net.URL>
+</httpSample>
+<httpSample t="4" it="0" lt="4" ct="0" ts="1727197930565" s="false" lb="Update_SendCom" rc="200" rm="" tn="sendComment Stepping Thread Group 2-9" dt="text" de="UTF-8" by="1163" sby="336" sc="1" ec="1" ng="27" na="28" hn="DESKTOP-75HJ5OI">
+  <assertionResult>
+    <name>Response Assertion</name>
+    <failure>true</failure>
+    <error>false</error>
+    <failureMessage>Test failed: text expected to contain /&lt;b&gt;Райффайзенбанк&lt;\/b&gt;: &apos;Рекомендую, это лучшая компания на свете Отличные ребята.&apos;&lt;br&gt;/</failureMessage>
+  </assertionResult>
+  <responseHeader class="java.lang.String">HTTP/1.1 200 
+X-Content-Type-Options: nosniff
+X-XSS-Protection: 1; mode=block
+Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+Pragma: no-cache
+Expires: 0
+Content-Type: text/plain;charset=UTF-8
+Content-Length: 889
+Date: Tue, 24 Sep 2024 17:12:09 GMT
+</responseHeader>
+  <requestHeader class="java.lang.String">Connection: keep-alive
+Referer: http://localhost:8080/guestbook.html
+Accept-Language: ru-RU,ru;q=0.8,en-US;q=0.5,en;q=0.3
+Priority: u=0
+Accept-Encoding: gzip, deflate
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:130.0) Gecko/20100101 Firefox/130.0
+Accept: */*
+Host: localhost:8080
+</requestHeader>
+  <responseData class="java.lang.String">&lt;b&gt;ИБРАЭ&lt;/b&gt;: &apos;Привет! Я все выяснил по твоей просьбе: значит запись на лечение геморроя проводится по пятницам с 8:00 кабинет №13. Извини что в гостевой пишу, у меня что-то личка тормозит. Всегда рад помочь.&apos;&lt;br&gt;&lt;b&gt;Филип Морис Интернэшнл&lt;/b&gt;: &apos;Вы превзошли все ожидания, молодцы!&apos;&lt;br&gt;&lt;b&gt;ТрансКредитБанк&lt;/b&gt;: &apos;Самая надежная компания, рекомендую всем!&apos;&lt;br&gt;&lt;b&gt;Хоум Кредит энд Финанс Банк&lt;/b&gt;: &apos;ЕЩЩЩКЕЕЕЕЕРРЕЕЕЕЕ&apos;&lt;br&gt;&lt;b&gt;МТС Банк&lt;/b&gt;: &apos;Рекомендую, это лучшая компания на свете Отличные ребята.&apos;&lt;br&gt;&lt;b&gt;ОТП Банк&lt;/b&gt;: &apos;Спасибо!&apos;&lt;br&gt;</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <cookies class="java.lang.String"></cookies>
+  <method class="java.lang.String">GET</method>
+  <queryString class="java.lang.String"></queryString>
+  <java.net.URL>http://localhost:8080/service/guestbook</java.net.URL>
+</httpSample>
+<httpSample t="4" it="0" lt="4" ct="0" ts="1727197930565" s="false" lb="Update_SendCom" rc="200" rm="" tn="sendComment Stepping Thread Group 2-21" dt="text" de="UTF-8" by="1163" sby="336" sc="1" ec="1" ng="27" na="28" hn="DESKTOP-75HJ5OI">
+  <assertionResult>
+    <name>Response Assertion</name>
+    <failure>true</failure>
+    <error>false</error>
+    <failureMessage>Test failed: text expected to contain /&lt;b&gt;Ренессанс Жизнь&lt;\/b&gt;: &apos;Благодарю за отличную работу!&apos;&lt;br&gt;/</failureMessage>
+  </assertionResult>
+  <responseHeader class="java.lang.String">HTTP/1.1 200 
+X-Content-Type-Options: nosniff
+X-XSS-Protection: 1; mode=block
+Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+Pragma: no-cache
+Expires: 0
+Content-Type: text/plain;charset=UTF-8
+Content-Length: 889
+Date: Tue, 24 Sep 2024 17:12:09 GMT
+</responseHeader>
+  <requestHeader class="java.lang.String">Connection: keep-alive
+Referer: http://localhost:8080/guestbook.html
+Accept-Language: ru-RU,ru;q=0.8,en-US;q=0.5,en;q=0.3
+Priority: u=0
+Accept-Encoding: gzip, deflate
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:130.0) Gecko/20100101 Firefox/130.0
+Accept: */*
+Host: localhost:8080
+</requestHeader>
+  <responseData class="java.lang.String">&lt;b&gt;ИБРАЭ&lt;/b&gt;: &apos;Привет! Я все выяснил по твоей просьбе: значит запись на лечение геморроя проводится по пятницам с 8:00 кабинет №13. Извини что в гостевой пишу, у меня что-то личка тормозит. Всегда рад помочь.&apos;&lt;br&gt;&lt;b&gt;Филип Морис Интернэшнл&lt;/b&gt;: &apos;Вы превзошли все ожидания, молодцы!&apos;&lt;br&gt;&lt;b&gt;ТрансКредитБанк&lt;/b&gt;: &apos;Самая надежная компания, рекомендую всем!&apos;&lt;br&gt;&lt;b&gt;Хоум Кредит энд Финанс Банк&lt;/b&gt;: &apos;ЕЩЩЩКЕЕЕЕЕРРЕЕЕЕЕ&apos;&lt;br&gt;&lt;b&gt;МТС Банк&lt;/b&gt;: &apos;Рекомендую, это лучшая компания на свете Отличные ребята.&apos;&lt;br&gt;&lt;b&gt;ОТП Банк&lt;/b&gt;: &apos;Спасибо!&apos;&lt;br&gt;</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <cookies class="java.lang.String"></cookies>
+  <method class="java.lang.String">GET</method>
+  <queryString class="java.lang.String"></queryString>
+  <java.net.URL>http://localhost:8080/service/guestbook</java.net.URL>
+</httpSample>
+<httpSample t="4" it="0" lt="4" ct="0" ts="1727198005564" s="false" lb="Update_SendCom" rc="200" rm="" tn="sendComment Stepping Thread Group 2-24" dt="text" de="UTF-8" by="272" sby="336" sc="1" ec="1" ng="42" na="43" hn="DESKTOP-75HJ5OI">
+  <assertionResult>
+    <name>Response Assertion</name>
+    <failure>true</failure>
+    <error>false</error>
+    <failureMessage>Response was null</failureMessage>
+  </assertionResult>
+  <responseHeader class="java.lang.String">HTTP/1.1 200 
+X-Content-Type-Options: nosniff
+X-XSS-Protection: 1; mode=block
+Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+Pragma: no-cache
+Expires: 0
+Content-Type: text/plain;charset=UTF-8
+Content-Length: 0
+Date: Tue, 24 Sep 2024 17:13:25 GMT
+</responseHeader>
+  <requestHeader class="java.lang.String">Connection: keep-alive
+Referer: http://localhost:8080/guestbook.html
+Accept-Language: ru-RU,ru;q=0.8,en-US;q=0.5,en;q=0.3
+Priority: u=0
+Accept-Encoding: gzip, deflate
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:130.0) Gecko/20100101 Firefox/130.0
+Accept: */*
+Host: localhost:8080
+</requestHeader>
+  <responseData class="java.lang.String"></responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <cookies class="java.lang.String"></cookies>
+  <method class="java.lang.String">GET</method>
+  <queryString class="java.lang.String"></queryString>
+  <java.net.URL>http://localhost:8080/service/guestbook</java.net.URL>
+</httpSample>
+<httpSample t="5" it="0" lt="5" ct="0" ts="1727198005565" s="false" lb="Update_SendCom" rc="200" rm="" tn="sendComment Stepping Thread Group 2-12" dt="text" de="UTF-8" by="272" sby="336" sc="1" ec="1" ng="42" na="43" hn="DESKTOP-75HJ5OI">
+  <assertionResult>
+    <name>Response Assertion</name>
+    <failure>true</failure>
+    <error>false</error>
+    <failureMessage>Response was null</failureMessage>
+  </assertionResult>
+  <responseHeader class="java.lang.String">HTTP/1.1 200 
+X-Content-Type-Options: nosniff
+X-XSS-Protection: 1; mode=block
+Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+Pragma: no-cache
+Expires: 0
+Content-Type: text/plain;charset=UTF-8
+Content-Length: 0
+Date: Tue, 24 Sep 2024 17:13:25 GMT
+</responseHeader>
+  <requestHeader class="java.lang.String">Connection: keep-alive
+Referer: http://localhost:8080/guestbook.html
+Accept-Language: ru-RU,ru;q=0.8,en-US;q=0.5,en;q=0.3
+Priority: u=0
+Accept-Encoding: gzip, deflate
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:130.0) Gecko/20100101 Firefox/130.0
+Accept: */*
+Host: localhost:8080
+</requestHeader>
+  <responseData class="java.lang.String"></responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <cookies class="java.lang.String"></cookies>
+  <method class="java.lang.String">GET</method>
+  <queryString class="java.lang.String"></queryString>
+  <java.net.URL>http://localhost:8080/service/guestbook</java.net.URL>
+</httpSample>
+<httpSample t="5" it="0" lt="5" ct="0" ts="1727198005565" s="false" lb="Update_SendCom" rc="200" rm="" tn="sendComment Stepping Thread Group 2-36" dt="text" de="UTF-8" by="272" sby="336" sc="1" ec="1" ng="42" na="43" hn="DESKTOP-75HJ5OI">
+  <assertionResult>
+    <name>Response Assertion</name>
+    <failure>true</failure>
+    <error>false</error>
+    <failureMessage>Response was null</failureMessage>
+  </assertionResult>
+  <responseHeader class="java.lang.String">HTTP/1.1 200 
+X-Content-Type-Options: nosniff
+X-XSS-Protection: 1; mode=block
+Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+Pragma: no-cache
+Expires: 0
+Content-Type: text/plain;charset=UTF-8
+Content-Length: 0
+Date: Tue, 24 Sep 2024 17:13:25 GMT
+</responseHeader>
+  <requestHeader class="java.lang.String">Connection: keep-alive
+Referer: http://localhost:8080/guestbook.html
+Accept-Language: ru-RU,ru;q=0.8,en-US;q=0.5,en;q=0.3
+Priority: u=0
+Accept-Encoding: gzip, deflate
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:130.0) Gecko/20100101 Firefox/130.0
+Accept: */*
+Host: localhost:8080
+</requestHeader>
+  <responseData class="java.lang.String"></responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <cookies class="java.lang.String"></cookies>
+  <method class="java.lang.String">GET</method>
+  <queryString class="java.lang.String"></queryString>
+  <java.net.URL>http://localhost:8080/service/guestbook</java.net.URL>
+</httpSample>
+
+</testResults>
